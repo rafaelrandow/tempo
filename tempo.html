@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="css/cerulean.css">
+  <link rel="stylesheet" href="css/tempo.css?20">
+  <title>Previsão do Tempo</title>
+  <!-- Dependência jQuery-->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script> -->
+
+  <script src="js/tempo.js"></script>
+  <!-- Bootstrap links CDN-->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+ </head>
+<body>
+  <main class="container">
+    <h1 style="line-height:1.6;">
+    <a style="text-decoration: none" href ="tempo.html">  
+      Previs&atilde;o do Tempo </a>
+    </h1>   
+    <p class="navbar navbar-light bg-light">
+      fonte: <a target="blank" href="http://servicos.cptec.inpe.br/XML/"> CPTEC/INPE </a>   
+    </p>
+    <!-- <object type='text/xml' id="xml" data='http://servicos.cptec.inpe.br/XML/cidade/4765/previsao.xml'></object> -->
+    <div class="saida"></div>
+  </main>  
+  <footer class="text-right">
+    <div class="container">
+      <span class="text-muted small">Desenvolvido por: <a href="http://rafaelrandow.awardspace.info"> [Rafael Randow] </a></span>
+    </div>
+  </footer>
+</body>
+</html>
